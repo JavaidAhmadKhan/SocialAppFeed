@@ -8,8 +8,9 @@ const styles = StyleSheet.create({
     textAlign: "center",
     fontWeight: 500,
     fontSize: 14,
-    lineHeight: 14,
+    lineHeight: 17,
     marginTop: 8,
+    fontFamily: "Inter-SemiBold",
   },
   userImageContainer: {
     borderWidth: 1,

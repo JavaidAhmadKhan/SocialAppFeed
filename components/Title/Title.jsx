@@ -14,10 +14,6 @@ const Title = props => {
     return null;
   }
 
-  Title.propTypes = {
-    title: PropTypes.string.isRequired
-  }
-
   return (
     <SafeAreaView>
       <View style={style.titleContainer}>
@@ -26,5 +22,9 @@ const Title = props => {
     </SafeAreaView>
   );
 };
+
+Title.propTypes = {
+  title: PropTypes.string.isRequired
+}
 
 export default Title;

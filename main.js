@@ -37,6 +37,7 @@ const style = StyleSheet.create({
   },
   userStoryContainer: {
     marginHorizontal: 26,
+    marginTop: 12,
   },
 });
 
