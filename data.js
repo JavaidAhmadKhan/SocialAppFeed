@@ -21,7 +21,7 @@ export default DATA = [
   },
   {
     id: 6,
-    name: "Riyan",
+    name: "Ziyan",
   },
   {
     id: 7,

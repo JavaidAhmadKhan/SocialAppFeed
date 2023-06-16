@@ -7,6 +7,7 @@ const style = StyleSheet.create({
     lineHeight: 29,
     fontWeight: 600,
     fontStyle: "normal",
+    marginLeft: 20,
     fontFamily: "Inter-SemiBold",
   },
 });

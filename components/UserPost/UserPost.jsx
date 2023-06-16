@@ -6,16 +6,14 @@ import { faEllipsisH } from '@fortawesome/free-solid-svg-icons';
 import { faBookmark, faComment, faHeart } from '@fortawesome/free-regular-svg-icons';
 
 import style from './user-post-style';
+import UserProfileImage from '../UserProfileImage/UserProfileImage';
 
 const UserPost = (props) => {
     return (
         <View style={style.userPostContainer}>
             <View style={style.userInformationContainer}>
                 <View style={style.userInformation}>
-                    <View style={style.image}>
-                        <Image
-                            source={require('../../assets/images.png')} />
-                    </View>
+                    <UserProfileImage />
                     <View>
                         <Text style={style.name}>{props.firstName} {props.lastName}</Text>
                         {props.location && <Text style={style.location}>{props.location}</Text>}

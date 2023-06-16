@@ -3,13 +3,12 @@ import React from "react";
 import PropTypes from 'prop-types';
 
 import styles from "./style";
+import UserProfileImage from "../UserProfileImage/UserProfileImage";
 
 const UserStory = props => {
   return (
     <View style={styles.storyContainer}>
-      <View style={styles.userImageContainer}>
-        <Image source={require("../../assets/images.png")} />
-      </View>
+      <UserProfileImage />
       <Text style={styles.name}>{props.name}</Text>
     </View>
   );

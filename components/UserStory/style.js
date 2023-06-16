@@ -12,12 +12,6 @@ const styles = StyleSheet.create({
     marginTop: 8,
     fontFamily: "Inter-SemiBold",
   },
-  userImageContainer: {
-    borderWidth: 1,
-    borderColor: "#F35BAC",
-    padding: 3,
-    borderRadius: 50,
-  },
 });
 
 export default styles;

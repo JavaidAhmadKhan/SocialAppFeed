@@ -16,7 +16,6 @@ const style = StyleSheet.create({
   userPostContainer: {
     borderBottomWidth: 1,
     borderBottomColor: "#EFF2F6",
-    marginBottom: 20,
   },
 
   image: {
