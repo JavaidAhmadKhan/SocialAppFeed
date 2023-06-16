@@ -1,19 +1,19 @@
 export default DATA = [
   {
     id: 1,
-    name: "Josheph",
+    name: "Javaid",
   },
   {
     id: 2,
-    name: "Anngel",
+    name: "Khan",
   },
   {
     id: 3,
-    name: "White",
+    name: "Sahil",
   },
   {
     id: 4,
-    name: "Oliver",
+    name: "Aqib",
   },
   {
     id: 5,
@@ -21,11 +21,11 @@ export default DATA = [
   },
   {
     id: 6,
-    name: "Javaid",
+    name: "Riyan",
   },
   {
     id: 7,
-    name: "Sahil",
+    name: "Rahul",
   },
   {
     id: 8,
@@ -33,6 +33,6 @@ export default DATA = [
   },
   {
     id: 9,
-    name: "Rosia",
+    name: "Queen",
   },
 ];
