@@ -10,9 +10,8 @@ import posts from "../../components/UserPost/posts";
 import DATA from "../../data";
 import style from './home-style';
 import globalStyle from '../../styles/main'
-import { Routes } from '../../navigation/Routes';
 
-const Home = ({ navigation }) => {
+const Home = () => {
     const pageSize = 4;
     const pageSizePosts = 2;
     const [pageNumber, setPageNumber] = useState(1);
@@ -44,7 +43,7 @@ const Home = ({ navigation }) => {
                             <Title title="Lets Explore" />
                             <Pressable
                                 style={style.messageIcon}
-                                onPress={() => navigation.navigate(Routes.Profile)}>
+                            >
                                 <FontAwesomeIcon
                                     icon={faEnvelope}
                                     color="#CACDDE"

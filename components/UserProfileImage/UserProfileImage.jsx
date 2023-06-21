@@ -5,7 +5,7 @@ import style from './user-profile-style'
 const UserProfileImage = () => {
     return (
         <View style={style.userImageContainer}>
-            <Image source={require("../../assets/images.png")} />
+            <Image source={require("../../assets/images/images.png")} />
         </View>
     )
 }

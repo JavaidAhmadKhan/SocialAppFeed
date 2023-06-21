@@ -5,6 +5,7 @@ import * as SplashScreen from 'expo-splash-screen';
 import Home from "./screens/Home/Home";
 import { NavigationContainer } from '@react-navigation/native';
 import MainNavigation from './navigation/MainNavigation';
+import 'react-native-gesture-handler';
 
 const App = () => {
   const [fontsLoaded] = useFonts({
