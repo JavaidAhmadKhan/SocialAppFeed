@@ -1,18 +1,9 @@
 
-import { View, Text, SafeAreaView, Image } from "react-native";
-import { useFonts } from 'expo-font';
+import { View, Text, SafeAreaView } from "react-native";
 import PropTypes from 'prop-types'
-
 import style from "./style";
 
 const Title = props => {
-  const [fontsLoaded] = useFonts({
-    'Inter-SemiBold': require('../../assets/fonts/Inter-SemiBold.ttf'),
-  });
-
-  if (!fontsLoaded) {
-    return null;
-  }
 
   return (
     <SafeAreaView>
