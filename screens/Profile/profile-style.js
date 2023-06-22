@@ -64,8 +64,8 @@ const style = StyleSheet.create({
   border: {
     borderTopWidth: 1,
     borderColor: "#EFF2F6",
-    marginVertical:16,
-    marginHorizontal:28,
+    marginVertical: 16,
+    marginHorizontal: 28,
   },
 });
 

@@ -2,6 +2,7 @@ import { Text, SafeAreaView, View, ScrollView, Image } from 'react-native'
 import React from 'react'
 import globalStyle from '../../styles/main'
 import style from './profile-style'
+import { ProfileTabNavigation } from '../../navigation/MainNavigation'
 
 const Pofile = () => {
   return (
@@ -31,7 +32,10 @@ const Pofile = () => {
             <Text style={style.singleStatText}>Posts</Text>
           </View>
         </View>
-        <View style={style.border}></View>
+        <View style={style.border} />
+        <View style={{ height: '100%' }}>
+          <ProfileTabNavigation />
+        </View>
       </ScrollView>
     </SafeAreaView>
   )
